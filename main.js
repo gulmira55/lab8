@@ -22,7 +22,7 @@ lab4_5: [10,5,3,5,5,5,10,10,10,10,5],
 lab6: [5,5,10,5,5,10], 
 quiz1: 40 , 
 sums: [sum1, sum2, sum3, sum4_5, sum6], 
-total_score: (sums[0] + sums[1] + sums[2] + sums[3] + sums[4]) / 4 + quiz1,
+total_score: (sums[0] + sums[1] + sums[2] + sums[3] + sums[4]) / 6 * 0.6 + quiz1 * 0.4,
 };
 
 console.log(results);
